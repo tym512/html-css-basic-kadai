@@ -1,0 +1,33 @@
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  font-size: 20px;
+  /* 中央に配置します */
+  text-align: center;
+}
+.google-fonts {
+  /* Google Fontsを指定します */
+  font-family: 'Josefin Sans', sans-serif;
+}
+html { 
+  /* ルート要素のフォントサイズを20pxに指定します */
+  font-size: 20px;
+ }
+h1   {
+  /* フォントサイズをルート要素の2倍にします */
+  font-size: 2rem;
+  /* 文字間隔を1.2倍にします */
+  letter-spacing: 1.2em;
+  /* 影をつけます */
+  text-shadow: 1px 1px 2px gray;
+  /* 下に3pxの実線をつけます */
+  border-bottom: solid 3px rgb(115, 115, 114)
+}
+.skyblue {
+  color: skyblue;
+}
+.pink {
+  color: rgb(255, 192, 203)
+}
+#parent p {
+  font-weight: bold;
+}
